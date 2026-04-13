@@ -4,3 +4,4 @@ deployment:
 
 service:
   servicePort: "8080"
+  targetPort: "8080"
