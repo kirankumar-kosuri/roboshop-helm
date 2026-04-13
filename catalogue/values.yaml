@@ -3,5 +3,4 @@ deployment:
   imageVersion: v1
 
 service:
-  servicePort: "8080"
-  targetPort: "8080"
+  servicePort: "8008"
