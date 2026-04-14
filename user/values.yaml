@@ -1,0 +1,4 @@
+deployment:
+  imageRepo: kirankumarkosuri/cart
+  imageVersion: v1
+  replicas: 2
