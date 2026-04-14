@@ -1,0 +1,4 @@
+deployment:
+  imageRepo: kirankumarkosuri/catalogue
+  imageVersion: v1
+  
