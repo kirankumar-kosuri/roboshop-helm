@@ -4,3 +4,6 @@ deployment:
 
 service:
   servicePort: "8080"
+
+# configmap:
+#   mongoURL: "mongodb://mongodb:27017/catalogue"
