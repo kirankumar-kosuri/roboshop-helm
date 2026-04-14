@@ -1,6 +1,0 @@
-deployment:
-  imageRepo: kirankumarkosuri/catalogue
-  imageVersion: v1
-
-service:
-  servicePort: "8008"
