@@ -1,10 +1,11 @@
+configmap:
+  redisURL: "redis://redis:6379"
+  mongoURL: "mongodb://mongodb:27017/users"
+
 deployment:
   replicas: 1
   imageRepo: kirankumarkosuri/user
   imageVersion: v1
-  configmap:
-    redisURL: "redis://redis:6379"
-    mongoURL: "mongodb://mongodb:27017/users"
     
 
 service:
