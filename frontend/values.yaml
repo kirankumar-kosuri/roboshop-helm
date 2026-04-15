@@ -1,0 +1,5 @@
+deployment:
+  replicas: 1
+  imageRepo: kirankumarkosuri/frontend
+  imageVersion: v1
+  type: LoadBalancer
