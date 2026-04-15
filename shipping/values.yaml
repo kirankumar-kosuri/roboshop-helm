@@ -1,0 +1,7 @@
+deployment:
+  replicas: 1
+  imageRepo: kirankumarkosuri/shipping
+  imageVersion: v1
+
+service:
+  servicePort: 80
