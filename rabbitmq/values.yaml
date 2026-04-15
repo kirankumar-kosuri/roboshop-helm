@@ -1,0 +1,4 @@
+deployment:
+  replicas: 1
+  imageRepo: rabbitmq
+  imageVersion: 3
