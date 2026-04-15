@@ -1,0 +1,10 @@
+deployment:
+  configMap:
+    redisURL: "redis://redis:6379"
+    mongoURL: "mongodb://mongodb:27017/users"
+    replicas: 1
+    imageRepo: kirankumarkosuri/user
+    imageVersion: v1
+
+service:
+  servicePort: "8080"
